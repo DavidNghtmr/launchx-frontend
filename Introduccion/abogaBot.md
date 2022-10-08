@@ -1,6 +1,6 @@
 # AbogaBot
 
-![abogaBot](images/Logo-AbogaBot.png)
+![abogaBot](images/Logo-AbogaBot.png){widthd = 50%}
 
 Aplicación móvil y web que tiene como finalidad automatizar las demandas mediante formularios, de los clientes
 del despacho de abogados _**Mazo de abogados**_
