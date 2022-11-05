@@ -4,7 +4,9 @@
 
 _El pastel con el que siempre soñaste_
 
-Segunda práctica del programa Microsoft LaunchX. Este es el link que te redirecciona hacia nuestro sitio web en donde podrás hacernos llegar tus pedidos :D
+° Segunda práctica del programa Microsoft LaunchX. Este es el link que te redirecciona hacia nuestro sitio web en donde podrás hacernos llegar tus pedidos :D
+
+° Es una página 100% responsive, se agregan y quitan detalles dependiendo de la resolución del dispositivo, se puede navegar entre pestañas y cada una de las pestañas tiene un contenido diferente.
 
 [SweetNghtmr: Ordena aquí!!!](https://sweetnghtmr.netlify.app/)
 
