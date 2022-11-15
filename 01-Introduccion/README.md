@@ -40,6 +40,6 @@ Para realizar el UX y UI, hice uso del editor **FIGMA**.
 
 Se trato de utilizar la propuesta del cliente en cuanto a diseño de la aplicación: Azul marino y blanco.
 
-Para poder apreciar de mejor manera el trabajo realizado, puede dar click en [Este enlace](https://www.figma.com/file/HvR4WnG4oDn7zA4hHbYnN8/Abogabot?node-id=0%3A1&t=ijEe5kYTV1AjlRt1-1)
+Para poder apreciar de mejor manera el trabajo realizado, puede dar click en [Este enlace](https://www.figma.com/file/HvR4WnG4oDn7zA4hHbYnN8/Abogabot?node-id=0%3A1&t=ijEe5kYTV1AjlRt1-1) :D
 
 ![UX-UI](images/UX-UI.png)
