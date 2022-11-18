@@ -1,0 +1,440 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  color: #3656d4;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 12px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  padding: 5px 12px;
+  font-weight: bold;
+}
+
+header a:hover {
+  opacity: 0.7;
+}
+
+.nav-button {
+  background-color: #3656d4;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/nurse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero p {
+  text-align: justify;
+  max-width: 300px;
+}
+
+.hero img {
+  height: 20px;
+}
+
+#sign {
+  padding-top: 25px;
+}
+
+.hero-info {
+  background-color: white;
+  color: rgb(112, 112, 112);
+  font-weight: bold;
+  display: flex;
+  border-radius: 5px;
+}
+
+.hero-info p {
+  margin: 0;
+  padding: 10px 30px;
+}
+
+.hero-info span {
+  color: #3656d4;
+}
+
+.hero-info button:hover {
+  opacity: 0.95;
+}
+
+#schedule {
+  padding-top: 100px;
+}
+
+.submit {
+  background-color: #3656d4;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0px 40px;
+  cursor: pointer;
+}
+
+.should-vaccine .container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.should-vaccine h2 {
+  font-size: 2rem;
+  color: #3656d4;
+  margin-bottom: 0;
+}
+
+.should-vaccine h3 {
+  color: #3656d4;
+  font-size: 1.5rem;
+}
+
+.should-vaccine .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 280px;
+  height: 300px;
+  border: 3px solid hsla(0, 0%, 46%, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.card p,
+h3 {
+  padding: 0 20px;
+}
+
+#should-text {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  box-shadow: rgba(75, 43, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(60, 60, 156, 0.25) 0px 50px 100px -20px,
+    rgba(44, 72, 231, 0.3) 0px 30px 60px -30px;
+}
+
+.preparations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/cubrebocas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+.preparations h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+#preparations-text {
+  width: 460px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.despliegue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 400px;
+  border: 3px solid hsl(0, 0%, 46%);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 5px 20px;
+}
+
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .card-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid hsla(240, 100%, 83%, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
+
+.contact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #e6e9f6;
+  color: #2a4ac8;
+  width: 180px;
+  height: 50px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.contact a:hover {
+  background-color: #3656d4;
+  color: white;
+}
+
+.contact h2 {
+  color: #3656d4;
+  font-size: 2rem;
+}
+
+.contact p {
+  width: 500px;
+}
+
+.contact .cards {
+  display: inline-flex;
+}
+
+footer h2 {
+  color: #2a4ac8;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+footer p {
+  width: 300px;
+}
+
+footer h3 {
+  font-size: 1.3rem;
+  color: #0d2892;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+
+footer {
+  background-color: #e6e9f6;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info a {
+  margin-bottom: 18px;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header a {
+    margin-right: 10px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-text,
+  .hero-info {
+    margin-right: 300px;
+  }
+
+  .cards {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin-left: 25px;
+  }
+
+  #container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .preparations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .cards-contact {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+  }
+
+  .card-contact {
+    margin-left: 25px;
+  }
+
+  .contact .container {
+    display: flex;
+    align-items: initial;
+  }
+
+  .contact {
+    background-image: url(images/medico.png);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 500px) 140px;
+  }
+
+  .footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-col {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-col h3 {
+    padding: 0;
+  }
+
+  .footer-info {
+    margin-left: 50px;
+    text-align: initial;
+    justify-content: initial;
+    align-items: initial;
+  }
+}
