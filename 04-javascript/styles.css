@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url(images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+main {
+  display: inline-block;
+  position: relative;
+}
+
+#pokedex {
+  margin-top: 8%;
+  width: 100%;
+  max-width: 425px;
+}
+
+.pokemon-imagen {
+  position: absolute;
+  bottom: 52%;
+  left: 50%;
+  transform: translate(-59%, 20%);
+  height: 20%;
+}
+
+.tipo {
+  text-align: right;
+  position: absolute;
+  color: #222;
+  top: 17%;
+  right: 19%;
+  font-size: clamp(8px, 5vw, 20px);
+}
+
+.datos {
+  position: absolute;
+  color: #aaa;
+  top: 57%;
+  right: 26%;
+  font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon-nombre {
+  color: black;
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  bottom: 25%;
+  left: 14%;
+  width: 65%;
+  padding: 1%;
+}
+
+.texto {
+  padding: 5%;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -4px 7px 1px #aaa;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  bottom: 8%;
+  left: -24%;
+  gap: 20px;
+  width: 65%;
+  padding: 1%;
+  transform: translate(57%, 0%);
+}
+
+button {
+  color: white;
+  width: 60%;
+  padding: 4%;
+  background-color: rgb(60, 60, 60);
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -2px 4px 1px rgb(16, 16, 16);
+}
+
+button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: clamp(8px, 5vw, 0.8rem);
+}

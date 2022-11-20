@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicons/pokeball.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main>
+      <img src="#" alt="" class="pokemon-imagen" />
+
+      <h1 class="tipo">
+        <span class="weight"></span>
+        <br />
+        <span class="height"></span>
+      </h1>
+
+      <h1 class="datos">
+        <span class="pokemon-numero"></span> -
+        <span class="pokemon-nombre"></span>
+      </h1>
+
+      <form class="form">
+        <input
+          class="texto"
+          type="search"
+          placeholder="Nombre o número"
+          required
+        />
+      </form>
+
+      <div class="buttons">
+        <button class="btn-anterior">Anterior</button>
+        <button class="btn-siguiente">Siguiente</button>
+      </div>
+
+      <img id="pokedex" src="images/pokedex.png" alt="pokedex" />
+    </main>
+  </body>
+</html>
